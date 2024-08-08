@@ -3,7 +3,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     background: #fcfcfc;
-    padding: 2px 35px;
+    padding: 5px 35px;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -11,11 +11,6 @@ nav h2{
     font-size: 27px;
     font-family: cursive;
     font-weight: 700;
-}
-
-nav h2 span{
-    font-family: cursive;
-    color: var(--color-purple);
 }
 
 nav ul{
@@ -36,6 +31,7 @@ nav ul li a{
     font-weight: 500;
     color: #000;
     transition: all 200ms ease-in-out;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 nav ul li a:hover,
@@ -64,7 +60,7 @@ nav ul li a.active::after{
 
 @media (max-width: 769px){
     nav{
-        background: #b9b3b3;
+        background: #e4e1e1;
     }
     nav ul{
         display: flex;
@@ -73,13 +69,13 @@ nav ul li a.active::after{
         justify-content: flex-start;
         position: fixed;
         top: 65px;
-        right: -300px;
+        right: -310px;
         width: 300px;
         height: 100vh;
-        background: #b9b3b3;
+        background: #e4e1e1;
         box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
         padding: 40px 0 0 10px;
-        transition: all 400ms ease-in-out;
+        transition: all 500ms ease-in-out;
     }
 
     nav ul.active{
@@ -99,7 +95,7 @@ nav ul li a.active::after{
     }
 
     #mobile i{
-        font-size: 24px;
+        font-size: 20px;
         cursor: pointer;
         color: #000;
     }
@@ -108,7 +104,7 @@ nav ul li a.active::after{
 
 @media (max-width: 500px){
     nav{
-        padding: 20px;
+        padding: 10px 20px;
     }
 }
 
