@@ -1,0 +1,57 @@
+.features-container{
+    background: #f4f4f4;
+    padding: 4vw 0;
+}
+
+.feature-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-text h2{
+    font-size: 45px;
+    padding-top: 2vw;
+    text-shadow: 2px 1px 3px #000;
+}
+
+.feature-text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 2vh 20vw;
+    text-align: center;
+}
+
+/* ------------------ feature-cards ------------------- */
+
+.feature-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw 0 3vw 0;
+    gap: 2.2vw;
+}
+
+.feature-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 50vh;
+    height: 30vh;
+    background: #fff;
+    border-radius: 12px;
+}
+
+.feature-card img{
+    width: 65px;
+}
+
+.feature-card h2{
+    font-weight: 500;
+    padding-top: 2vh;
+    font-size: 22px;
+}
