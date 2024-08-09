@@ -1,0 +1,81 @@
+.homePage{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    background: url(../images/home.jpg) center center no-repeat;
+    background-color: #e5e5e5;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.homePage .overlay {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.homePage h1{
+    color: #fff;
+    font-size: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30vh;
+    text-transform: uppercase;
+}
+
+.homePage p{
+    color: #fff;
+    font-size: 22px;
+    padding: 0 10vw;
+    text-align: center;
+}
+
+.homeBtn{
+    padding-top: 2vh;
+    text-align: center;
+}
+
+.homeBtn button{
+    font-size: large;
+    padding: 15px 35px;
+    border-radius: 25px;
+    border: none;
+    background-color: #1b589e;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media(max-width: 800px){
+    .homePage h1{
+        font-size: 7vw;
+    }
+
+    .homePage p{
+        font-size: 3.5vw;
+    }
+}
+
+@media(max-width: 500px){
+
+    .homePage h1{
+        font-size: 7.5vw;
+    }
+
+    .homePage p{
+        font-size: 4.5vw;
+    }
+
+    .homeBtn button{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 350px){
+    .homeBtn button{
+        font-size: 12px;
+        padding: 12px 25px;
+    }
+}
